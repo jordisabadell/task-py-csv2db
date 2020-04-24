@@ -24,6 +24,7 @@ def readFile(fileName):
                 values = line.replace("\n", "").split("\t")
                 for i, value in enumerate(values):
                     item[header[i]] = value
-                    items.append(item)
+                
+                items.append(item)
     
     return items
