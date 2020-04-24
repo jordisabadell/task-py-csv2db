@@ -1,6 +1,6 @@
 import os
 import pymongo
-from csv2db_readfile import readFile
+from readfile import readFile
 
 inputDir = 'in/'
 
