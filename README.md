@@ -1,2 +1,1 @@
-# amb-py-csv2db
-Import CSV file to MongoDB database.
+# CSV to DB
