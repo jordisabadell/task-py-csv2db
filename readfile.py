@@ -9,7 +9,7 @@ def readFile(fileName):
     """
 
     #read file
-    file = open(fileName, "r", encoding='utf8') #https://docs.python.org/3.8/library/functions.html#open
+    file = open(fileName, "r", encoding="utf8") #https://docs.python.org/3.8/library/functions.html#open
 
     #get header from first line
     header = file.readline().replace("\n", "").split("\t")
