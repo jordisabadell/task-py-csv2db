@@ -4,7 +4,7 @@ import argparse
 from readfile import readFile
 
 #ARGUMENTS
-parser = argparse.ArgumentParser(description='Given a CSV file (delimited by tabulates) it imports the data to a Mongodb collection. File requires a first line with header.')
+parser = argparse.ArgumentParser(description='Given a CSV file (delimited by tabulates) it imports the data to a Mongodb collection. File requires a first line with header.')')
 parser.add_argument('--inputfolder', dest='input_folder', 
     help='Input folder name.', type=str, required=True)
 parser.add_argument('--mongoclient', dest='mongo_client', 

@@ -1,6 +1,6 @@
 # Import CSV file to Mongodb
 
-Given a CSV file (delimited by tabulates) it imports the data to a Mongodb collection. File requires a first line with header.
+Given a folder with CSV files (delimiteds by tabulates) it imports the content to a Mongodb collection. Files require a first line with header.
 
 ## Arguments
 
