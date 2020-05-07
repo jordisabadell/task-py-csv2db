@@ -16,15 +16,14 @@ def readFile(fileName):
 
     #iterate lines
     items = []
-    for i, line in enumerate(file):
-        if i>0:
-            if line:
-                #convert line to dictionary
-                item = {}
-                values = line.replace("\n", "").split("\t")
-                for i, value in enumerate(values):
-                    item[header[i]] = value
-                
-                items.append(item)
+    for line in file:
+        if line:
+            #convert line to dictionary
+            item = {}
+            values = line.replace("\n", "").split("\t")
+            for i, value in enumerate(values):
+                item[header[i]] = value
+            
+            items.append(item)
     
     return items
