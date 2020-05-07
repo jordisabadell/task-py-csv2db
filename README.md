@@ -1,4 +1,4 @@
-# Import CSV file to Mongodb
+# Import CSV files to Mongodb
 
 Given a folder with CSV files (delimiteds by tabulates) it imports the content to a Mongodb collection. Files require a first line with header.
 
